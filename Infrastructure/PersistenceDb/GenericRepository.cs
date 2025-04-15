@@ -5,6 +5,7 @@ using System.Linq.Expressions;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Application.Service.PersistenceDb;
+using Domain.Entities;
 
 namespace Infrastructure.PersistenceDb
 {

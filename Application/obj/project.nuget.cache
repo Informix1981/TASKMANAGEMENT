@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "lJSf16gwphU=",
+  "dgSpecHash": "Se4pkUJce1I=",
   "success": true,
   "projectFilePath": "D:\\personal\\AI\\TaskManagement\\TaskManagement\\Application\\Application.csproj",
   "expectedPackageFiles": [
+    "D:\\System\\ASPNET\\Nuget\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",
+    "D:\\System\\ASPNET\\Nuget\\microsoft.extensions.configuration.abstractions\\9.0.4\\microsoft.extensions.configuration.abstractions.9.0.4.nupkg.sha512",
     "D:\\System\\ASPNET\\Nuget\\microsoft.extensions.dependencyinjection\\9.0.4\\microsoft.extensions.dependencyinjection.9.0.4.nupkg.sha512",
-    "D:\\System\\ASPNET\\Nuget\\microsoft.extensions.dependencyinjection.abstractions\\9.0.4\\microsoft.extensions.dependencyinjection.abstractions.9.0.4.nupkg.sha512"
+    "D:\\System\\ASPNET\\Nuget\\microsoft.extensions.dependencyinjection.abstractions\\9.0.4\\microsoft.extensions.dependencyinjection.abstractions.9.0.4.nupkg.sha512",
+    "D:\\System\\ASPNET\\Nuget\\microsoft.extensions.primitives\\9.0.4\\microsoft.extensions.primitives.9.0.4.nupkg.sha512"
   ],
   "logs": []
 }
