@@ -13,3 +13,6 @@ D:\personal\AI\TaskManagement\TaskManagement\Infrastructure\obj\Debug\net9.0\ref
 D:\personal\AI\TaskManagement\TaskManagement\Infrastructure\bin\Debug\net9.0\Application.dll
 D:\personal\AI\TaskManagement\TaskManagement\Infrastructure\bin\Debug\net9.0\Application.pdb
 D:\personal\AI\TaskManagement\TaskManagement\Infrastructure\obj\Debug\net9.0\Infrastr.15EFFBFE.Up2Date
+D:\personal\AI\TaskManagement\TaskManagement\Infrastructure\bin\Debug\net9.0\Domain.dll
+D:\personal\AI\TaskManagement\TaskManagement\Infrastructure\bin\Debug\net9.0\Domain.pdb
+D:\personal\AI\TaskManagement\TaskManagement\Infrastructure\obj\Debug\net9.0\Infrastructure.sourcelink.json

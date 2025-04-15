@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "unvIXI1uZbg=",
+  "dgSpecHash": "GUqieCtNgrY=",
   "success": true,
   "projectFilePath": "D:\\personal\\AI\\TaskManagement\\TaskManagement\\Domain\\Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "D:\\System\\ASPNET\\Nuget\\microsoft.extensions.dependencyinjection\\9.0.4\\microsoft.extensions.dependencyinjection.9.0.4.nupkg.sha512",
+    "D:\\System\\ASPNET\\Nuget\\microsoft.extensions.dependencyinjection.abstractions\\9.0.4\\microsoft.extensions.dependencyinjection.abstractions.9.0.4.nupkg.sha512"
+  ],
   "logs": []
 }

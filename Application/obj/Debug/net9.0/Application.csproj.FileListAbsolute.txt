@@ -9,3 +9,8 @@ D:\personal\AI\TaskManagement\TaskManagement\Application\obj\Debug\net9.0\Applic
 D:\personal\AI\TaskManagement\TaskManagement\Application\obj\Debug\net9.0\refint\Application.dll
 D:\personal\AI\TaskManagement\TaskManagement\Application\obj\Debug\net9.0\Application.pdb
 D:\personal\AI\TaskManagement\TaskManagement\Application\obj\Debug\net9.0\ref\Application.dll
+D:\personal\AI\TaskManagement\TaskManagement\Application\bin\Debug\net9.0\Domain.dll
+D:\personal\AI\TaskManagement\TaskManagement\Application\bin\Debug\net9.0\Domain.pdb
+D:\personal\AI\TaskManagement\TaskManagement\Application\obj\Debug\net9.0\Application.csproj.AssemblyReference.cache
+D:\personal\AI\TaskManagement\TaskManagement\Application\obj\Debug\net9.0\Application.sourcelink.json
+D:\personal\AI\TaskManagement\TaskManagement\Application\obj\Debug\net9.0\Applicat.44B5EDA2.Up2Date
