@@ -1,6 +1,7 @@
 using FluentValidation;
 using Domain.Entities;
 using Application.Service.PersistenceDb;
+using Application.Service.PersistenceDb.Interfaces;
 
 namespace Application.Validators
 {

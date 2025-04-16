@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Application.Service.PersistenceDb;
 using Domain.Entities;
+using Application.Service.PersistenceDb.Interfaces;
 
 namespace Infrastructure.PersistenceDb
 {

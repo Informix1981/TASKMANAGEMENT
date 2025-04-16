@@ -1,4 +1,5 @@
 using Application.Service.PersistenceDb;
+using Application.Service.PersistenceDb.Interfaces;
 using Infrastructure.PersistenceDb;
 using Microsoft.Extensions.DependencyInjection;
 

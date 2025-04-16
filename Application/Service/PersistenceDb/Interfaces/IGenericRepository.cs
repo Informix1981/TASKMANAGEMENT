@@ -4,7 +4,7 @@ using System.Linq.Expressions;
 using System.Threading.Tasks;
 using Domain.Entities;
 
-namespace Application.Service.PersistenceDb
+namespace Application.Service.PersistenceDb.Interfaces
 {
     public interface IGenericRepository<T> where T : class
     {

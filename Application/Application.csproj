@@ -5,6 +5,16 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Service\PersistenceDb\Implemantation\AssignementService.cs" />
+    <Compile Remove="Service\PersistenceDb\Implemantation\CrudService.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Service\PersistenceDb\Implemantation\AssignementService.cs" />
+    <None Include="Service\PersistenceDb\Implemantation\CrudService.cs" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Domain\Domain.csproj" />
   </ItemGroup>
