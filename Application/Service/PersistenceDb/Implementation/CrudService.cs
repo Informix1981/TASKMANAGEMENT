@@ -5,16 +5,10 @@ using FluentValidation;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-public abstract class CrudService<T> where T : class
+public abstract class CrudService<T>(IGenericRepository<T> repository, IValidator<T> validator) where T : class
 {
-    private readonly IGenericRepository<T> _repository;
-    private readonly IValidator<T> _validator;
-
-    protected CrudService(IGenericRepository<T> repository, IValidator<T> validator)
-    {
-        _repository = repository;
-        _validator = validator;
-    }
+    private readonly IGenericRepository<T> _repository = repository;
+    private readonly IValidator<T> _validator = validator;
 
     public async Task<T> CreateAsync(T entity)
     {

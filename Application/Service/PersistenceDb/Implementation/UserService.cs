@@ -14,16 +14,10 @@ namespace Application.Service.PersistenceDb.Implementation
         Task UpdateUser(User user);
         Task DeleteUser(int id);
     }
-    public class UserService : IUserService
+    public class UserService(IGenericRepository<User> userRepository, IValidator<User> userValidator) : IUserService
     {
-        private readonly IGenericRepository<User> _userRepository;
-        private readonly IValidator<User> _userValidator;
-
-        public UserService(IGenericRepository<User> userRepository, IValidator<User> userValidator)
-        {
-            _userRepository = userRepository;
-            _userValidator = userValidator;
-        }
+        private readonly IGenericRepository<User> _userRepository = userRepository;
+        private readonly IValidator<User> _userValidator = userValidator;
 
         public async Task<User> CreateUser(User user)
         {
