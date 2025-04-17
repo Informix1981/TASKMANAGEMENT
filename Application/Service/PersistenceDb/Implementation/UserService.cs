@@ -6,14 +6,6 @@ using Application.Service.PersistenceDb.Interfaces;
 
 namespace Application.Service.PersistenceDb.Implementation
 {
-    public interface IUserService
-    {
-        Task<User> CreateUser(User user);
-        Task<User> GetUserById(int id);
-        Task<IEnumerable<User>> GetAllUsers();
-        Task UpdateUser(User user);
-        Task DeleteUser(int id);
-    }
     public class UserService(IGenericRepository<User> userRepository, IValidator<User> userValidator) : IUserService
     {
         private readonly IGenericRepository<User> _userRepository = userRepository;
