@@ -31,6 +31,7 @@ namespace Presentation.Controllers
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] Assignment value)
         {
+            await Task.CompletedTask; // Simulate an asynchronous operation
             return Ok($"Post Assignement with value {value}");
         }
         // PUT api/<AssignementController>/5
