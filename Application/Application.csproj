@@ -7,13 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Service\PersistenceDb\Implemantation\AssignmentService.cs" />
-    <Compile Remove="Service\PersistenceDb\Implemantation\CrudService.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="Service\PersistenceDb\Implemantation\AssignmentService.cs" />
-    <None Include="Service\PersistenceDb\Implemantation\CrudService.cs" />
+    <Compile Remove="Service\PersistenceDb\Implemantation\**" />
+    <EmbeddedResource Remove="Service\PersistenceDb\Implemantation\**" />
+    <None Remove="Service\PersistenceDb\Implemantation\**" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Domain\Domain.csproj" />
