@@ -85,7 +85,6 @@ D:\personal\AI\TaskManagement\TaskManagement\Presentation\obj\Debug\net9.0\stati
 D:\personal\AI\TaskManagement\TaskManagement\Presentation\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.Presentation.props
 D:\personal\AI\TaskManagement\TaskManagement\Presentation\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.Presentation.props
 D:\personal\AI\TaskManagement\TaskManagement\Presentation\obj\Debug\net9.0\staticwebassets.pack.json
-D:\personal\AI\TaskManagement\TaskManagement\Presentation\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 D:\personal\AI\TaskManagement\TaskManagement\Presentation\obj\Debug\net9.0\Presenta.BC777DBE.Up2Date
 D:\personal\AI\TaskManagement\TaskManagement\Presentation\obj\Debug\net9.0\Presentation.dll
 D:\personal\AI\TaskManagement\TaskManagement\Presentation\obj\Debug\net9.0\refint\Presentation.dll

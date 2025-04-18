@@ -29,9 +29,8 @@ namespace Presentation.Controllers
         }
         // POST api/<AssignementController>
         [HttpPost]
-        public async IActionResult Post([FromBody] Assignment value)
+        public async Task<IActionResult> Post([FromBody] Assignment value)
         {
-            var result = await _assignmentService.CreateAsync(value);
             return Ok($"Post Assignement with value {value}");
         }
         // PUT api/<AssignementController>/5
