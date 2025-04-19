@@ -7,9 +7,9 @@ namespace Application.Validators
 {
     public class AssignmentValidator: AbstractValidator<Assignment>
     {
-        private readonly IGenericRepository<Assignment> _assignmentDb;
+        private readonly IGenericRepository<Assignment, int> _assignmentDb;
 
-        public AssignmentValidator(IGenericRepository<Assignment> assignmentDb)
+        public AssignmentValidator(IGenericRepository<Assignment, int> assignmentDb)
         {
             _assignmentDb = assignmentDb;
             RuleFor(a => a.Description)

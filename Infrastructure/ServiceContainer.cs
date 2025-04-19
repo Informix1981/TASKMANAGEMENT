@@ -12,13 +12,10 @@ public static class ServiceContainer
     public static void AddInfrastructureServices(this IServiceCollection services, IConfiguration config)
     {
         // Register infrastructure-specific services here
-         services.AddDbContext<AppDbContext>(option => option.UseSqlServer(config.GetConnectionString("Default"),
-            sqlOptions =>
-            {
-                sqlOptions.MigrationsAssembly(typeof(ServiceContainer).Assembly.FullName);
-                sqlOptions.EnableRetryOnFailure();
-            }),
-            ServiceLifetime.Scoped);
-        services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+        // Add database context
+        services.AddDbContext<AppDbContext>(options =>
+        options.UseInMemoryDatabase("TaskManagementDb"));
+
+        services.AddScoped(typeof(IGenericRepository<,>), typeof(GenericRepository<,>));
     }
 }

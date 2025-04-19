@@ -6,9 +6,9 @@ using Application.Service.PersistenceDb.Interfaces;
 
 namespace Application.Service.PersistenceDb.Implementation
 {
-    public class UserService(IGenericRepository<User> userRepository, IValidator<User> userValidator) : IUserService
+    public class UserService(IGenericRepository<User,int> userRepository, IValidator<User> userValidator) : IUserService
     {
-        private readonly IGenericRepository<User> _userRepository = userRepository;
+        private readonly IGenericRepository<User,int> _userRepository = userRepository;
         private readonly IValidator<User> _userValidator = userValidator;
 
         public async Task<User> CreateUser(User user)

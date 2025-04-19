@@ -5,12 +5,12 @@ using FluentValidation;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-public abstract class CrudService<T> : ICrudService<T> where T : class
+public abstract class CrudService<T, TKey> : ICrudService<T,TKey> where T : class
 {
-    private readonly IGenericRepository<T> _repository;
+    private readonly IGenericRepository<T, TKey> _repository;
     private readonly IValidator<T> _validator;
 
-    protected CrudService(IGenericRepository<T> repository, IValidator<T> validator)
+    protected CrudService(IGenericRepository<T, TKey> repository, IValidator<T> validator)
     {
         _repository = repository;
         _validator = validator;
@@ -28,7 +28,7 @@ public abstract class CrudService<T> : ICrudService<T> where T : class
         return entity;
     }
 
-    public async Task<T> GetByIdAsync(int id) => await _repository.GetByIdAsync(id);
+    public async Task<T> GetByIdAsync(TKey id) => await _repository.GetByIdAsync(id);
 
     public async Task<IEnumerable<T>> GetAllAsync() => await _repository.GetAllAsync();
 
@@ -43,5 +43,5 @@ public abstract class CrudService<T> : ICrudService<T> where T : class
         await _repository.UpdateAsync(entity);
     }
 
-    public async Task DeleteAsync(int id) => await _repository.DeleteAsync(id);
+    public async Task DeleteAsync(TKey id) => await _repository.DeleteAsync(id);
 }

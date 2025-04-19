@@ -1,11 +1,20 @@
-using Microsoft.AspNetCore.Builder;
-using Microsoft.Extensions.DependencyInjection; // Ensure this is included
 using Microsoft.OpenApi.Models; // Ensure this is included
+using Microsoft.EntityFrameworkCore; // Ensure this is included
+using Application;
+using Infrastructure;
+using Infrastructure.PersistenceDb;
+
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddInfrastructureServices(builder.Configuration);
+builder.Services.AddApplicationService(builder.Configuration);
 
 // Add services to the container.
-builder.Services.AddControllers();
+builder.Services.AddControllers()
+    .AddJsonOptions(options =>
+    {
+        options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.Preserve;
+    });
 
 // Add Swagger/OpenAPI services
 builder.Services.AddEndpointsApiExplorer();

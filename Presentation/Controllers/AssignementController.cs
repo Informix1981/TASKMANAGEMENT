@@ -15,36 +15,71 @@ namespace Presentation.Controllers
         {
             _assignmentService = assignmentService;
         }
+
         // GET: api/<AssignementController>
         [HttpGet]
-        public IActionResult Get()
+        public async Task<IActionResult> Get()
         {
-            return Ok("Get Assignement");
+            var assignments = await _assignmentService.GetAllAsync();
+            return Ok(assignments);
         }
+
         // GET api/<AssignementController>/5
         [HttpGet("{id}")]
-        public IActionResult Get(int id)
+        public async Task<IActionResult> Get(int id)
         {
-            return Ok($"Get Assignement with id {id}");
+            var assignment = await _assignmentService.GetByIdAsync(id);
+            if (assignment == null)
+            {
+                return NotFound($"Assignment with ID {id} not found.");
+            }
+            return Ok(assignment);
         }
+
         // POST api/<AssignementController>
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] Assignment value)
         {
-            await Task.CompletedTask; // Simulate an asynchronous operation
-            return Ok($"Post Assignement with value {value}");
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            var createdAssignment = await _assignmentService.CreateAsync(value);
+            return CreatedAtAction(nameof(Get), new { id = createdAssignment.Id }, createdAssignment);
         }
+
         // PUT api/<AssignementController>/5
         [HttpPut("{id}")]
-        public IActionResult Put(int id, [FromBody] string value)
+        public async Task<IActionResult> Put(int id, [FromBody] Assignment value)
         {
-            return Ok($"Put Assignement with id {id} and value {value}");
+            if (id != value.Id)
+            {
+                return BadRequest("ID in the URL does not match the ID in the body.");
+            }
+
+            var existingAssignment = await _assignmentService.GetByIdAsync(id);
+            if (existingAssignment == null)
+            {
+                return NotFound($"Assignment with ID {id} not found.");
+            }
+
+            await _assignmentService.UpdateAsync(value);
+            return NoContent();
         }
+
         // DELETE api/<AssignementController>/5
         [HttpDelete("{id}")]
-        public IActionResult Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
-            return Ok($"Delete Assignement with id {id}");
+            var existingAssignment = await _assignmentService.GetByIdAsync(id);
+            if (existingAssignment == null)
+            {
+                return NotFound($"Assignment with ID {id} not found.");
+            }
+
+            await _assignmentService.DeleteAsync(id);
+            return NoContent();
         }
     }
 }
