@@ -1,0 +1,120 @@
+@page "/assignments"
+@using Domain.Entities
+@using System.Text.Json
+@inject HttpClient HttpClient
+
+<h3>Assignment Management</h3>
+
+@if (!string.IsNullOrEmpty(errorMessage))
+{
+    <div style="color:red">@errorMessage</div>
+}
+else if (isLoading)
+{
+    <p><em>Loading...</em></p>
+}
+else if (assignments == null || !assignments.Any())
+{
+    <p><em>No assignments found.</em></p>
+}
+else
+{
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Start Date</th>
+                <th>End Date</th>
+                <th>Complexity</th>
+                <th>Status</th>
+                <th>Parent Assignment</th>
+                <th>Sub Assignments</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var assignment in assignments)
+            {
+                <tr>
+                    <td>@assignment.Id</td>
+                    <td>@assignment.Name</td>
+                    <td>@assignment.Description</td>
+                    <td>@assignment.StartDate.ToShortDateString()</td>
+                    <td>@assignment.EndDate.ToShortDateString()</td>
+                    <td>@assignment.Complexity</td>
+                    <td>@assignment.Status</td>
+                    <td>@assignment.ParentAssignment?.Name ?? "N/A"</td>
+                    <td>@(assignment.SubAssignments?.Count() ?? 0)</td>
+                    <td>
+                        <button @onclick="() => EditAssignment(assignment.Id)">Edit</button>
+                        <button @onclick="() => DeleteAssignment(assignment.Id)">Delete</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private IEnumerable<Assignment>? assignments;
+    private string? errorMessage;
+    private bool isLoading = true;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            var response = await HttpClient.GetAsync("api/Assignement");
+
+            if (response.IsSuccessStatusCode)
+            {
+                var jsonString = await response.Content.ReadAsStringAsync();
+                assignments = JsonSerializer.Deserialize<IEnumerable<Assignment>>(jsonString, new JsonSerializerOptions
+                    {
+                        PropertyNameCaseInsensitive = true
+                    });
+            }
+            else
+            {
+                errorMessage = $"Failed to load assignments. Status code: {response.StatusCode}";
+            }
+        }
+        catch (Exception ex)
+        {
+            errorMessage = "An error occurred while loading assignments.";
+            Console.Error.WriteLine($"[Error] OnInitializedAsync: {ex.Message}");
+        }
+        finally
+        {
+            isLoading = false;
+        }
+    }
+
+    private async Task DeleteAssignment(int id)
+    {
+        try
+        {
+            var response = await HttpClient.DeleteAsync($"api/Assignment/{id}");
+            if (response.IsSuccessStatusCode)
+            {
+                assignments = await HttpClient.GetFromJsonAsync<IEnumerable<Assignment>>("api/Assignment");
+            }
+            else
+            {
+                errorMessage = $"Failed to delete assignment (ID: {id}). Server responded with {response.StatusCode}.";
+            }
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"An error occurred while deleting the assignment (ID: {id}).";
+            Console.Error.WriteLine($"[Error] DeleteAssignment: {ex.Message}");
+        }
+    }
+
+    private void EditAssignment(int id)
+    {
+        // Navigate to edit page or show edit form
+    }
+}

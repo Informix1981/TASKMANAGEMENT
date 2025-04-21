@@ -1,0 +1,55 @@
+@page "/usergroups"
+@using Domain.Entities
+@inject HttpClient HttpClient
+
+<h3>User Group Management</h3>
+
+@if (userGroups == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var group in userGroups)
+            {
+                <tr>
+                    <td>@group.Id</td>
+                    <td>@group.Name</td>
+                    <td>
+                        <button @onclick="() => EditGroup(group.Id)">Edit</button>
+                        <button @onclick="() => DeleteGroup(group.Id)">Delete</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private IEnumerable<UserGroup>? userGroups;
+
+    protected override async Task OnInitializedAsync()
+    {
+        userGroups = await HttpClient.GetFromJsonAsync<IEnumerable<UserGroup>>("api/UserGroup");
+    }
+
+    private async Task DeleteGroup(int id)
+    {
+        await HttpClient.DeleteAsync($"api/UserGroup/{id}");
+        userGroups = await HttpClient.GetFromJsonAsync<IEnumerable<UserGroup>>("api/UserGroup");
+    }
+
+    private void EditGroup(int id)
+    {
+        // Navigate to edit page or show edit form
+    }
+}

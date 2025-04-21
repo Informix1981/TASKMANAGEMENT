@@ -92,3 +92,4 @@ D:\personal\AI\TaskManagement\TaskManagement\Presentation\obj\Debug\net9.0\Prese
 D:\personal\AI\TaskManagement\TaskManagement\Presentation\obj\Debug\net9.0\Presentation.genruntimeconfig.cache
 D:\personal\AI\TaskManagement\TaskManagement\Presentation\obj\Debug\net9.0\ref\Presentation.dll
 D:\personal\AI\TaskManagement\TaskManagement\Presentation\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.InMemory.dll
+D:\personal\AI\TaskManagement\TaskManagement\Presentation\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

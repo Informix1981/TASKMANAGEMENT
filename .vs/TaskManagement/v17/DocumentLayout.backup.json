@@ -3,24 +3,52 @@
   "WorkspaceRootPath": "D:\\personal\\AI\\TaskManagement\\TaskManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1687EC02-6A7F-4129-ADAA-DCE20B1F09EB}|Presentation\\Presentation.csproj|d:\\personal\\ai\\taskmanagement\\taskmanagement\\presentation\\controllers\\assignementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1687EC02-6A7F-4129-ADAA-DCE20B1F09EB}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\assignementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A96DE145-3F95-4D41-98FC-AB9CFE04FA44}|Presentation\\Presentation.csproj|d:\\personal\\ai\\taskmanagement\\taskmanagement\\presentation\\controllers\\assignementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A96DE145-3F95-4D41-98FC-AB9CFE04FA44}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\assignementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E4E922A-B48C-451D-BDC7-CF8214FCCFB7}|Application\\Application.csproj|d:\\personal\\ai\\taskmanagement\\taskmanagement\\application\\service\\persistencedb\\implementation\\crudservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E4E922A-B48C-451D-BDC7-CF8214FCCFB7}|Application\\Application.csproj|solutionrelative:application\\service\\persistencedb\\implementation\\crudservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D0BC4D20-E9CC-4453-ADB2-DE946AF19D82}|BlazorApp\\BlazorApp.csproj|d:\\personal\\ai\\taskmanagement\\taskmanagement\\blazorapp\\pages\\assignmentmanagement.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0BC4D20-E9CC-4453-ADB2-DE946AF19D82}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\pages\\assignmentmanagement.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A96DE145-3F95-4D41-98FC-AB9CFE04FA44}|Presentation\\Presentation.csproj|d:\\personal\\ai\\taskmanagement\\taskmanagement\\presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A96DE145-3F95-4D41-98FC-AB9CFE04FA44}|Presentation\\Presentation.csproj|solutionrelative:presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A96DE145-3F95-4D41-98FC-AB9CFE04FA44}|Presentation\\Presentation.csproj|d:\\personal\\ai\\taskmanagement\\taskmanagement\\presentation\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A96DE145-3F95-4D41-98FC-AB9CFE04FA44}|Presentation\\Presentation.csproj|solutionrelative:presentation\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0E4E922A-B48C-451D-BDC7-CF8214FCCFB7}|Application\\Application.csproj|d:\\personal\\ai\\taskmanagement\\taskmanagement\\application\\service\\persistencedb\\implementation\\assignementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0E4E922A-B48C-451D-BDC7-CF8214FCCFB7}|Application\\Application.csproj|solutionrelative:application\\service\\persistencedb\\implementation\\assignementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E4E922A-B48C-451D-BDC7-CF8214FCCFB7}|Application\\Application.csproj|d:\\personal\\ai\\taskmanagement\\taskmanagement\\application\\service\\persistencedb\\interfaces\\iassignmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E4E922A-B48C-451D-BDC7-CF8214FCCFB7}|Application\\Application.csproj|solutionrelative:application\\service\\persistencedb\\interfaces\\iassignmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B62104F5-BAA9-4C4B-BA73-62A0A94C7092}|Domain\\Domain.csproj|d:\\personal\\ai\\taskmanagement\\taskmanagement\\domain\\entities\\assignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B62104F5-BAA9-4C4B-BA73-62A0A94C7092}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\assignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1687EC02-6A7F-4129-ADAA-DCE20B1F09EB}|Presentation\\Presentation.csproj|d:\\personal\\ai\\taskmanagement\\taskmanagement\\presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1687EC02-6A7F-4129-ADAA-DCE20B1F09EB}|Presentation\\Presentation.csproj|solutionrelative:presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B62104F5-BAA9-4C4B-BA73-62A0A94C7092}|Domain\\Domain.csproj|d:\\personal\\ai\\taskmanagement\\taskmanagement\\domain\\entities\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B62104F5-BAA9-4C4B-BA73-62A0A94C7092}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E4E922A-B48C-451D-BDC7-CF8214FCCFB7}|Application\\Application.csproj|d:\\personal\\ai\\taskmanagement\\taskmanagement\\application\\service\\persistencedb\\implementation\\crudservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E4E922A-B48C-451D-BDC7-CF8214FCCFB7}|Application\\Application.csproj|solutionrelative:application\\service\\persistencedb\\implementation\\crudservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0BC4D20-E9CC-4453-ADB2-DE946AF19D82}|BlazorApp\\BlazorApp.csproj|d:\\personal\\ai\\taskmanagement\\taskmanagement\\blazorapp\\pages\\usergroupmanagement.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0BC4D20-E9CC-4453-ADB2-DE946AF19D82}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\pages\\usergroupmanagement.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0BC4D20-E9CC-4453-ADB2-DE946AF19D82}|BlazorApp\\BlazorApp.csproj|d:\\personal\\ai\\taskmanagement\\taskmanagement\\blazorapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0BC4D20-E9CC-4453-ADB2-DE946AF19D82}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0BC4D20-E9CC-4453-ADB2-DE946AF19D82}|BlazorApp\\BlazorApp.csproj|d:\\personal\\ai\\taskmanagement\\taskmanagement\\blazorapp\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0BC4D20-E9CC-4453-ADB2-DE946AF19D82}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E4E922A-B48C-451D-BDC7-CF8214FCCFB7}|Application\\Application.csproj|d:\\personal\\ai\\taskmanagement\\taskmanagement\\application\\service\\persistencedb\\interfaces\\iassignmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E4E922A-B48C-451D-BDC7-CF8214FCCFB7}|Application\\Application.csproj|solutionrelative:application\\service\\persistencedb\\interfaces\\iassignmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,7 +74,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "D:\\personal\\AI\\TaskManagement\\TaskManagement\\BlazorApp\\_Imports.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\_Imports.razor",
+              "ToolTip": "D:\\personal\\AI\\TaskManagement\\TaskManagement\\BlazorApp\\_Imports.razor",
+              "RelativeToolTip": "BlazorApp\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-20T17:57:00.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AssignmentManagement.razor",
+              "DocumentMoniker": "D:\\personal\\AI\\TaskManagement\\TaskManagement\\BlazorApp\\Pages\\AssignmentManagement.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Pages\\AssignmentManagement.razor",
+              "ToolTip": "D:\\personal\\AI\\TaskManagement\\TaskManagement\\BlazorApp\\Pages\\AssignmentManagement.razor",
+              "RelativeToolTip": "BlazorApp\\Pages\\AssignmentManagement.razor",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAQwEgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-20T17:56:38.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\personal\\AI\\TaskManagement\\TaskManagement\\Presentation\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Presentation\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\personal\\AI\\TaskManagement\\TaskManagement\\Presentation\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Presentation\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAcwBAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-20T17:56:09.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "AssignementService.cs",
               "DocumentMoniker": "D:\\personal\\AI\\TaskManagement\\TaskManagement\\Application\\Service\\PersistenceDb\\Implementation\\AssignementService.cs",
               "RelativeDocumentMoniker": "Application\\Service\\PersistenceDb\\Implementation\\AssignementService.cs",
@@ -59,7 +126,98 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "AssignementController.cs",
+              "DocumentMoniker": "D:\\personal\\AI\\TaskManagement\\TaskManagement\\Presentation\\Controllers\\AssignementController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\AssignementController.cs",
+              "ToolTip": "D:\\personal\\AI\\TaskManagement\\TaskManagement\\Presentation\\Controllers\\AssignementController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\AssignementController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAABYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T07:31:10.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\personal\\AI\\TaskManagement\\TaskManagement\\Presentation\\Program.cs",
+              "RelativeDocumentMoniker": "Presentation\\Program.cs",
+              "ToolTip": "D:\\personal\\AI\\TaskManagement\\TaskManagement\\Presentation\\Program.cs",
+              "RelativeToolTip": "Presentation\\Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAgwBAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T07:25:23.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\personal\\AI\\TaskManagement\\TaskManagement\\BlazorApp\\Program.cs",
+              "RelativeDocumentMoniker": "BlazorApp\\Program.cs",
+              "ToolTip": "D:\\personal\\AI\\TaskManagement\\TaskManagement\\BlazorApp\\Program.cs",
+              "RelativeToolTip": "BlazorApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T17:57:29.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Assignment.cs",
+              "DocumentMoniker": "D:\\personal\\AI\\TaskManagement\\TaskManagement\\Domain\\Entities\\Assignment.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Assignment.cs",
+              "ToolTip": "D:\\personal\\AI\\TaskManagement\\TaskManagement\\Domain\\Entities\\Assignment.cs",
+              "RelativeToolTip": "Domain\\Entities\\Assignment.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAgwBIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T22:10:37.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IEntity.cs",
+              "DocumentMoniker": "D:\\personal\\AI\\TaskManagement\\TaskManagement\\Domain\\Entities\\IEntity.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\IEntity.cs",
+              "ToolTip": "D:\\personal\\AI\\TaskManagement\\TaskManagement\\Domain\\Entities\\IEntity.cs",
+              "RelativeToolTip": "Domain\\Entities\\IEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T22:14:00.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CrudService.cs",
+              "DocumentMoniker": "D:\\personal\\AI\\TaskManagement\\TaskManagement\\Application\\Service\\PersistenceDb\\Implementation\\CrudService.cs",
+              "RelativeDocumentMoniker": "Application\\Service\\PersistenceDb\\Implementation\\CrudService.cs",
+              "ToolTip": "D:\\personal\\AI\\TaskManagement\\TaskManagement\\Application\\Service\\PersistenceDb\\Implementation\\CrudService.cs",
+              "RelativeToolTip": "Application\\Service\\PersistenceDb\\Implementation\\CrudService.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwCAAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T07:34:50.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserGroupManagement.razor",
+              "DocumentMoniker": "D:\\personal\\AI\\TaskManagement\\TaskManagement\\BlazorApp\\Pages\\UserGroupManagement.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Pages\\UserGroupManagement.razor",
+              "ToolTip": "D:\\personal\\AI\\TaskManagement\\TaskManagement\\BlazorApp\\Pages\\UserGroupManagement.razor",
+              "RelativeToolTip": "BlazorApp\\Pages\\UserGroupManagement.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-20T17:59:09.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "IAssignmentService.cs",
               "DocumentMoniker": "D:\\personal\\AI\\TaskManagement\\TaskManagement\\Application\\Service\\PersistenceDb\\Interfaces\\IAssignmentService.cs",
               "RelativeDocumentMoniker": "Application\\Service\\PersistenceDb\\Interfaces\\IAssignmentService.cs",
@@ -67,47 +225,7 @@
               "RelativeToolTip": "Application\\Service\\PersistenceDb\\Interfaces\\IAssignmentService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T07:39:15.99Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CrudService.cs",
-              "DocumentMoniker": "D:\\personal\\AI\\TaskManagement\\TaskManagement\\Application\\Service\\PersistenceDb\\Implementation\\CrudService.cs",
-              "RelativeDocumentMoniker": "Application\\Service\\PersistenceDb\\Implementation\\CrudService.cs",
-              "ToolTip": "D:\\personal\\AI\\TaskManagement\\TaskManagement\\Application\\Service\\PersistenceDb\\Implementation\\CrudService.cs",
-              "RelativeToolTip": "Application\\Service\\PersistenceDb\\Implementation\\CrudService.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T07:34:50.901Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AssignementController.cs",
-              "DocumentMoniker": "D:\\personal\\AI\\TaskManagement\\TaskManagement\\Presentation\\Controllers\\AssignementController.cs",
-              "RelativeDocumentMoniker": "Presentation\\Controllers\\AssignementController.cs",
-              "ToolTip": "D:\\personal\\AI\\TaskManagement\\TaskManagement\\Presentation\\Controllers\\AssignementController.cs",
-              "RelativeToolTip": "Presentation\\Controllers\\AssignementController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAACgAAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T07:31:10.45Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\personal\\AI\\TaskManagement\\TaskManagement\\Presentation\\Program.cs",
-              "RelativeDocumentMoniker": "Presentation\\Program.cs",
-              "ToolTip": "D:\\personal\\AI\\TaskManagement\\TaskManagement\\Presentation\\Program.cs",
-              "RelativeToolTip": "Presentation\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T07:25:23.52Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-18T07:39:15.99Z"
             }
           ]
         }

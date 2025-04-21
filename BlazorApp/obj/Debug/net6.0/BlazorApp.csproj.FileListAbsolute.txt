@@ -1,0 +1,8 @@
+D:\personal\AI\TaskManagement\TaskManagement\BlazorApp\obj\Debug\net6.0\BlazorApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\personal\AI\TaskManagement\TaskManagement\BlazorApp\obj\Debug\net6.0\BlazorApp.AssemblyInfoInputs.cache
+D:\personal\AI\TaskManagement\TaskManagement\BlazorApp\obj\Debug\net6.0\BlazorApp.AssemblyInfo.cs
+D:\personal\AI\TaskManagement\TaskManagement\BlazorApp\obj\Debug\net6.0\BlazorApp.csproj.CoreCompileInputs.cache
+D:\personal\AI\TaskManagement\TaskManagement\BlazorApp\obj\Debug\net6.0\BlazorApp.MvcApplicationPartsAssemblyInfo.cache
+D:\personal\AI\TaskManagement\TaskManagement\BlazorApp\obj\Debug\net6.0\BlazorApp.RazorAssemblyInfo.cache
+D:\personal\AI\TaskManagement\TaskManagement\BlazorApp\obj\Debug\net6.0\BlazorApp.RazorAssemblyInfo.cs
+D:\personal\AI\TaskManagement\TaskManagement\BlazorApp\obj\Debug\net6.0\BlazorApp.sourcelink.json
